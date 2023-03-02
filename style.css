@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer&family=Racing+Sans+One&display=swap');
+
+header {
+  padding: 5px;
+  background-color: black;
+  font-family: 'Racing Sans One', cursive;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 8%;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 40px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #40E0D0;
+  transition: all 0.3s ease;
+}
+
+/* Styles pour les sections */
+.card {
+  padding: 40px 20px;
+  font-family: 'Noto Serif Khmer', serif;
+}
+
+#f1{
+  background-image: url(image/f1.png);
+  background-size: cover;
+  background-position: center;
+  color: #40E0D0;
+  padding: 70px;
+  text-align: center;
+  font-family: 'Racing Sans One', cursive;;
+  font-size: 26px;
+}
+
+#actualités{
+  background-color: #40E0D0;
+  color: White;
+}
+
+#actualités p{
+  color: black;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Racing Sans One', cursive;;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Racing Sans One', cursive;
+}
+
+/* Styles pour le pied de page */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
